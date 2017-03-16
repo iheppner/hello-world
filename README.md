@@ -3,7 +3,7 @@
 Simple tutorial repository to get familiar with GitHub.
 Cf. https://guides.github.com/activities/hello-world/
 
-Testing some Markdown stuff (its obviously not the dialect used by Redmin - its "GitHub Flavored Markdown", cf. https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+Testing some Markdown stuff (its obviously not the dialect used by Redmine - its "GitHub Flavored Markdown", cf. https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 
 You can create nested lists by indenting lines by two spaces.
 
@@ -41,8 +41,10 @@ This is ~~strikethrough~~ text
 
 One can also make some `command` names appear "typewritten".
 Or even format snippets of code by beginning a block of code with triple backticks:
-```
-SELECT COUNT(*) AS Number, country FROM worldcitizens GROUP BY country
+
+```sql
+SELECT COUNT(*) AS Number, country FROM worldcitizens
+                                   GROUP BY country
                                    ORDER BY Number DESC;
 ```
 
